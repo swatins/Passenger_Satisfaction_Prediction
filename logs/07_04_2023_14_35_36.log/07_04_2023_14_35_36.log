@@ -1,0 +1,4 @@
+[ 2023-07-04 14:35:36,302] 187 werkzeug - WARNING -  * Debugger is active!
+[ 2023-07-04 14:35:36,308] 187 werkzeug - INFO -  * Debugger PIN: 870-953-973
+[ 2023-07-04 14:35:42,709] 16 root - INFO - Error occurred in Python script name[F:\SHIVAN_KUMAR\Intern\Passenger_Satisfaction_Prediction\app.py] line number[12] error message [WE r trying our custom file ]
+[ 2023-07-04 14:35:42,710] 187 werkzeug - INFO - 127.0.0.1 - - [04/Jul/2023 14:35:42] "GET / HTTP/1.1" 200 -

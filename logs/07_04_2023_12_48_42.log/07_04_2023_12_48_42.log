@@ -1,0 +1,6 @@
+[ 2023-07-04 12:48:42,083] 187 werkzeug - WARNING -  * Debugger is active!
+[ 2023-07-04 12:48:42,120] 187 werkzeug - INFO -  * Debugger PIN: 870-953-973
+[ 2023-07-04 12:48:48,454] 8 root - INFO - Testing second method of logging
+[ 2023-07-04 12:48:48,454] 187 werkzeug - INFO - 127.0.0.1 - - [04/Jul/2023 12:48:48] "GET / HTTP/1.1" 200 -
+[ 2023-07-04 12:48:51,720] 187 werkzeug - INFO - 127.0.0.1 - - [04/Jul/2023 12:48:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2023-07-04 12:50:21,810] 187 werkzeug - INFO -  * Detected change in 'F:\\SHIVAN_KUMAR\\Intern\\Passenger_Satisfaction_Prediction\\src\\exception.py', reloading
