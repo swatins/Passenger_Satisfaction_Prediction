@@ -26,7 +26,7 @@ class DataIngestion:
         logging.info("Entered the data ingestion method")
         try :
             cdf=pd.read_csv('notebook\data\Passenger_raw_dataset.csv')
-            logging.info("read the dataset as dataframe")
+            logging.info("Read the dataset as dataframe")
             
             cdf.columns = [c.replace(' ', '_') for c in cdf.columns]
             cdf=cdf.rename(columns={"On-board_service": "On_board_service"})

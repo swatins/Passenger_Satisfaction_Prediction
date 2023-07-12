@@ -31,7 +31,7 @@ class DataTransformation:
             
                         
             numerical_columns= ['Age', 'Flight_Distance', 'Inflight_wifi_service',
-       'Departure/Arrival_time_convenient', 'Ease_of_Online_booking',
+       'Departure_Arrival_time_convenient', 'Ease_of_Online_booking',
        'Gate_location', 'Food_and_drink', 'Online_boarding', 'Seat_comfort',
        'Inflight_entertainment', 'On_board_service', 'Leg_room_service',
        'Baggage_handling', 'Checkin_service', 'Inflight_service',
@@ -125,7 +125,7 @@ class DataTransformation:
             
             #for col in numerical_columns
             numerical_features = [ 'Age', 'Flight_Distance', 'Inflight_wifi_service',
-       'Departure/Arrival_time_convenient', 'Ease_of_Online_booking',
+       'Departure_Arrival_time_convenient', 'Ease_of_Online_booking',
        'Gate_location', 'Food_and_drink', 'Online_boarding', 'Seat_comfort',
        'Inflight_entertainment', 'On_board_service', 'Leg_room_service',
        'Baggage_handling', 'Checkin_service', 'Inflight_service',

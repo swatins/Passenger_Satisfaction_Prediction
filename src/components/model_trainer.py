@@ -82,5 +82,5 @@ class ModelTrainer:
                           obj=best_model)
             
         except Exception as e:
-            raise Exception (e,sys)
+            raise CustomException (e,sys)
         
