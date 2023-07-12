@@ -1,4 +1,4 @@
-Unnamed: 0,Gender,Customer Type,Age,Type of Travel,Class,Flight Distance,Inflight wifi service,Departure/Arrival time convenient,Ease of Online booking,Gate location,Food and drink,Online boarding,Seat comfort,Inflight entertainment,On-board service,Leg room service,Baggage handling,Checkin service,Inflight service,Cleanliness,Departure Delay in Minutes,Arrival Delay in Minutes,satisfaction
+Unnamed:_0,Gender,Customer_Type,Age,Type_of_Travel,Class,Flight_Distance,Inflight_wifi_service,Departure/Arrival_time_convenient,Ease_of_Online_booking,Gate_location,Food_and_drink,Online_boarding,Seat_comfort,Inflight_entertainment,On_board_service,Leg_room_service,Baggage_handling,Checkin_service,Inflight_service,Cleanliness,Departure_Delay_in_Minutes,Arrival_Delay_in_Minutes,satisfaction
 103044,Male,Loyal Customer,66,Personal Travel,Eco,1678,3,2,3,2,4,3,4,4,4,3,2,3,2,4,0,0.0,neutral or dissatisfied
 43282,Female,Loyal Customer,38,Business travel,Business,954,2,2,2,2,2,3,1,4,4,4,4,2,4,4,3,0.0,satisfied
 65543,Female,Loyal Customer,38,Business travel,Eco,189,2,1,1,1,2,2,2,2,1,2,4,1,4,2,0,0.0,neutral or dissatisfied

@@ -1,0 +1,30 @@
+[ 2023-07-11 20:01:50,086] 26 root - INFO - Entered the data ingestion method
+[ 2023-07-11 20:01:50,506] 29 root - INFO - read the dataset as dataframe
+[ 2023-07-11 20:01:50,574] 33 root - INFO - Changing column names in  DF is done 
+[ 2023-07-11 20:01:51,307] 40 root - INFO - train test split initiated
+[ 2023-07-11 20:01:52,043] 45 root - INFO - Data Ingestion is done
+[ 2023-07-11 20:01:52,282] 114 root - INFO - Train and Test csv file reading done 
+[ 2023-07-11 20:01:52,320] 124 root - INFO - Column Deletion from train and test data is done
+[ 2023-07-11 20:01:52,431] 138 root - INFO - Outliers capped on our train data
+[ 2023-07-11 20:01:52,431] 142 root - INFO - Outliers capped on our train data
+[ 2023-07-11 20:01:52,432] 145 root - INFO - Getting preprocessing object
+[ 2023-07-11 20:01:52,432] 53 root - INFO - Numerical  column encoding completed
+[ 2023-07-11 20:01:52,432] 63 root - INFO - Categorical column encoding completed
+[ 2023-07-11 20:01:52,432] 73 root - INFO - Column Transfer completed
+[ 2023-07-11 20:01:52,440] 161 root - INFO - Splitting train data into dependent and independent features
+[ 2023-07-11 20:01:52,447] 166 root - INFO - Splitting test data into dependent and independent features
+[ 2023-07-11 20:01:52,449] 171 root - INFO - Applying preprocessing obj on training dataframe
+[ 2023-07-11 20:01:52,924] 174 root - INFO - Applying preprocessing obj on testing dataframe
+[ 2023-07-11 20:01:52,964] 183 root - INFO - Creating arrays of training and testing dataframe
+[ 2023-07-11 20:01:52,972] 193 root - INFO - Saved preprocessing object.
+[ 2023-07-11 20:01:53,001] 30 root - INFO - Spitting dataset into Dependent and independent features
+[ 2023-07-11 20:01:53,001] 37 root - INFO - Done Splitting
+[ 2023-07-11 20:01:53,001] 38 root - INFO - Model Training Started !! 
+[ 2023-07-11 20:01:53,001] 31 root - INFO - Report creation started !! 
+[ 2023-07-11 20:01:53,001] 43 root - INFO - Grid search cv started !! 
+[ 2023-07-11 20:01:53,001] 45 root - INFO - Grid search cv fitting started !! 
+[ 2023-07-11 21:51:20,593] 48 root - INFO - fitting completed !! 
+[ 2023-07-11 21:51:39,297] 71 root - INFO - Returned from eval function 
+[ 2023-07-11 21:51:39,297] 74 root - INFO - Best model Score = {best_model_score} 
+[ 2023-07-11 21:51:39,297] 78 root - INFO - Best model found, ModelName : {best_model_name}, with  Accuracy Score: {best_model_score}
+[ 2023-07-11 21:51:39,298] 81 root - INFO - Saving the best model in pickle file

@@ -6,6 +6,11 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from dataclasses import dataclass
 
+from src.components.data_transformation import DataTransformation
+from src.components.data_transformation import DataTransformationConfig
+from src.components.model_trainer import ModelTrainer
+
+
 @dataclass
 class DataIngestionConfig:
     train_data_path:str=os.path.join('artifacts',"train.csv")
@@ -20,8 +25,13 @@ class DataIngestion:
     def initiate_data_ingestion(self):
         logging.info("Entered the data ingestion method")
         try :
-            df=pd.read_csv('notebook\data\Passenger_raw_dataset.csv')
+            cdf=pd.read_csv('notebook\data\Passenger_raw_dataset.csv')
             logging.info("read the dataset as dataframe")
+            
+            cdf.columns = [c.replace(' ', '_') for c in cdf.columns]
+            cdf=cdf.rename(columns={"On-board_service": "On_board_service"})
+            logging.info("Changing column names in  DF is done ")
+            df=cdf
             
             os.makedirs(os.path.dirname(self.ingestion_config.train_data_path),exist_ok=True)
             
@@ -41,8 +51,6 @@ class DataIngestion:
         except Exception as e:
             raise CustomException(e,sys)
         
-if __name__=="__main__":
-    obj=DataIngestion()
-    obj.initiate_data_ingestion()
+
     
-    #src\components\data_ingestion.py
+    # src\components\data_ingestion.py

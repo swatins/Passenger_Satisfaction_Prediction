@@ -1,0 +1,24 @@
+[ 2023-07-11 15:17:53,265] 26 root - INFO - Entered the data ingestion method
+[ 2023-07-11 15:17:53,497] 29 root - INFO - read the dataset as dataframe
+[ 2023-07-11 15:17:53,511] 33 root - INFO - Changing column names in  DF is done 
+[ 2023-07-11 15:17:54,221] 40 root - INFO - train test split initiated
+[ 2023-07-11 15:17:54,932] 45 root - INFO - Data Ingestion is done
+[ 2023-07-11 15:17:55,190] 114 root - INFO - Train and Test csv file reading done 
+[ 2023-07-11 15:17:55,204] 124 root - INFO - Column Deletion from train and test data is done
+[ 2023-07-11 15:17:55,331] 138 root - INFO - Outliers capped on our train data
+[ 2023-07-11 15:17:55,331] 142 root - INFO - Outliers capped on our train data
+[ 2023-07-11 15:17:55,333] 145 root - INFO - Getting preprocessing object
+[ 2023-07-11 15:17:55,333] 53 root - INFO - Numerical  column encoding completed
+[ 2023-07-11 15:17:55,333] 63 root - INFO - Categorical column encoding completed
+[ 2023-07-11 15:17:55,333] 73 root - INFO - Column Transfer completed
+[ 2023-07-11 15:17:55,342] 161 root - INFO - Splitting train data into dependent and independent features
+[ 2023-07-11 15:17:55,350] 166 root - INFO - Splitting test data into dependent and independent features
+[ 2023-07-11 15:17:55,353] 171 root - INFO - Applying preprocessing obj on training dataframe
+[ 2023-07-11 15:17:55,828] 174 root - INFO - Applying preprocessing obj on testing dataframe
+[ 2023-07-11 15:17:55,874] 183 root - INFO - Creating arrays of training and testing dataframe
+[ 2023-07-11 15:17:55,884] 193 root - INFO - Saved preprocessing object.
+[ 2023-07-11 15:17:55,895] 30 root - INFO - Spitting dataset into Dependent and independent features
+[ 2023-07-11 15:17:55,896] 37 root - INFO - Done Splitting
+[ 2023-07-11 15:17:55,896] 38 root - INFO - Model Training Started !! 
+[ 2023-07-11 15:17:55,896] 31 root - INFO - Report creation started !! 
+[ 2023-07-11 15:17:55,896] 43 root - INFO - Grid search cv started !! 
